@@ -2,7 +2,10 @@
 
 A comprehensive toolkit for building and evaluating academic information retrieval systems. This pipeline allows you to create, index, and evaluate reusable IR test collections from academic content. 
 
-🚀 Run the Tutorial in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/academic-ir-pipeline/blob/main/tutorial/academic_rag_demo.ipynb)
+🚀 Run the Tutorial in Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/mst-rag-tutorial/blob/main/tutorials/rag_tutorial.ipynb
+)
 
 ## 📚 Table of Contents
 

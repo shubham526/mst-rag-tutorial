@@ -4,22 +4,17 @@ A comprehensive toolkit for building and evaluating academic information retriev
 
 ## 📚 Table of Contents
 
-1.  [Features](#features)
-2.  [Requirements](#requirements)
-3.  [Installation](#installation)
-4.  [Quick Start](#quick-start)
-5.  [Detailed Usage Guide](#detailed-usage-guide)
-    * [Web Scraping](#web-scraping)
-    * [Corpus Building](#corpus-building)
-    * [Index Creation](#index-creation)
-    * [Topics and Qrels](#topics-and-qrels)
-    * [Evaluation](#evaluation)
-6.  [Directory Structure](#directory-structure)
-7.  [Configuration](#configuration)
-8.  [Running Tests](#running-tests)
-9.  [Common Issues](#common-issues)
-10. [Contributing](#contributing)
-11. [Citation](#citation)
+1.  [Features](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-features)
+2.  [Requirements](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-requirements)
+3.  [Installation](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-installation)
+4.  [Quick Start](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-quick-start)
+5.  [Directory Structure](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-directory-structure)
+6.  [Data and Usage Guide](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-data--usage-documentation)
+7.  [Running Tests](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-running-tests)
+8.  [Contributing](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-contributing)
+11. [LICENCE](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-license)
+12. [Acknowledgements](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-acknowledgments)
+13. [Contact](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-acknowledgments)
 
 ## ✨ Features
 
@@ -38,7 +33,7 @@ A comprehensive toolkit for building and evaluating academic information retriev
 ### System Requirements
 
 -   Python 3.8 or higher
--   Java 11 or higher (for Pyserini)
+-   Java 21 or higher (for Pyserini)
 -   8GB RAM minimum (16GB recommended for dense indexing)
 -   CUDA-compatible GPU (optional, for faster dense indexing)
 
@@ -123,22 +118,22 @@ Main dependencies include:
 
 Here's a minimal example to get started:
 
+1. Scrape a website
 ```bash
-# 1. Scrape a website
 python -m src.scraping.website_scraper \
     --url "https://example.edu/research" \
     --output data/scraped \
     --max-pages 100
 ```
 
-# 2. Build corpus
+2. Build corpus
 ```bash
 python -m src.corpus.builder \
     --input data/scraped/scraped_data.json \
     --output academic_corpus
 ```
 
-# 3. Create index
+3. Create index
 ```bash
 python -m src.indexing.create_index \
     --corpus academic_corpus \
@@ -146,7 +141,7 @@ python -m src.indexing.create_index \
     --dense \
     --encoder sentence-transformers/msmarco-distilbert-base-v3
 ```
-# 4. Run evaluation
+4. Run evaluation
 ```bash
 python -m src.evaluation.ir_tools evaluate \
     --qrels academic_corpus/qrels.txt \
@@ -225,9 +220,9 @@ pytest -m "not slow"
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
-- Pyserini for IR tools
-- BEIR for evaluation methodology
-- Sentence Transformers for dense retrieval
+- [Pyserini](https://github.com/castorini/pyserini) for IR tools
+- [BEIR](https://github.com/beir-cellar/beir) for datasets and evaluation methodology
+- [Sentence Transformers](https://sbert.net/) for dense retrieval
 
 ## 📧 Contact
-For questions and support
+For questions and support, email shubham.chatterjee@mst.edu.

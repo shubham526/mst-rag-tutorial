@@ -43,7 +43,7 @@ data/
 
 ### Topics and Qrels
 
--   `topics.xml`: NIST-style topic definitions
+-   `topics.json`: NIST-style topic definitions
 -   `qrels.txt`: Relevance judgments
 
 ## Usage

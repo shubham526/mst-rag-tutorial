@@ -1,7 +1,8 @@
 # RAGKit
 
 RAGKit is a comprehensive toolkit for building and evaluating information retrieval systems with Retrieval-Augmented Generation (RAG) capabilities. It enables you to scrape domain-specific content, create TREC-style reusable test collections, and build sparse, dense, or hybrid indexes for LLM-powered retrieval and evaluation.
-🚀 Run the Tutorial in Colab
+
+🚀 **Run the Tutorial in Colab**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/mst-rag-tutorial/blob/main/tutorials/rag_tutorial.ipynb
 )

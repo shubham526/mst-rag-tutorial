@@ -9,9 +9,13 @@ RAGKit is a comprehensive toolkit for building and evaluating information retrie
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/mst-rag-tutorial/blob/main/tutorials/rag_tutorial.ipynb)
 
 
- 📑 **See the slides**
+ 📑 **See the tutorial slides**
   
   [![Download Slides](https://img.shields.io/badge/Download-Slides-blue?style=for-the-badge&logo=adobeacrobatreader)](https://github.com/shubham526/mst-rag-tutorial/blob/main/tutorials/mst_rag_tutorial.pdf)
+
+**See my lecture slides from CS 5001 (Information Retrieval) taught at Missouri S&T in Spring 2025**  
+
+[![View Slides](https://img.shields.io/badge/View-Slides-green?style=for-the-badge&logo=google-drive)]([https://drive.google.com/your-shared-slides-link](https://drive.google.com/drive/folders/1LbZGa_JjtkxSkndBEQNqaRb8B4IAgq2S?usp=sharing))
 
 ### 📚 Topics Covered in the Tutorial
 

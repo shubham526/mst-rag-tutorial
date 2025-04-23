@@ -13,6 +13,44 @@ RAGKit is a comprehensive toolkit for building and evaluating information retrie
   
   [![Download Slides](https://img.shields.io/badge/Download-Slides-blue?style=for-the-badge&logo=adobeacrobatreader)](https://github.com/shubham526/mst-rag-tutorial/blob/main/tutorials/mst_rag_tutorial.pdf)
 
+### 📚 Topics Covered in the Tutorial
+
+- **Introduction to RAG**
+  - What is Retrieval-Augmented Generation?
+  - Why LLMs hallucinate and how RAG mitigates it
+
+- **Core RAG Workflow**
+  - Retrieval → Reranking → Generation pipeline
+  - Bi-encoder and cross-encoder strategies
+
+- **Hands-on Setup**
+  - Using Mistral API and Colab
+  - Required libraries and computing resources
+
+- **Customizing RAG for Domains**
+  - Domain-specific data, prompts, and evaluation
+  - Applications in research, tech support, education, healthcare, and campus info
+
+- **Prompt Engineering**
+  - Designing domain-appropriate prompts
+  - Role definition, format control, reasoning chains, citation styles
+
+- **Evaluation Techniques**
+  - Scientific, technical, educational, and healthcare evaluation criteria
+  - IR metrics: nDCG, Recall, Precision@k, Reciprocal Rank
+
+- **Advanced Architectures**
+  - Two-stage retrieval and reranking
+  - Multi-hop RAG, HyDE, Knowledge Graph RAG, Self-RAG
+
+- **Debugging and Productionization**
+  - Common RAG issues and how to fix them
+  - Scaling to production: monitoring, routing, feedback loops
+
+- **Tools and Resources**
+  - FAISS, sentence-transformers, ir_datasets, LangChain, LlamaIndex
+  - Research papers and open datasets
+
 ## 📚 Table of Contents
 
 1.  [Features](https://github.com/shubham526/mst-rag-tutorial?tab=readme-ov-file#-features)

@@ -1,7 +1,6 @@
-# Academic IR Pipeline
+# RAGKit
 
-A comprehensive toolkit for building and evaluating academic information retrieval systems. This pipeline allows you to create, index, and evaluate reusable IR test collections from academic content. 
-
+RAGKit is a comprehensive toolkit for building and evaluating information retrieval systems with Retrieval-Augmented Generation (RAG) capabilities. It enables you to scrape domain-specific content, create TREC-style reusable test collections, and build sparse, dense, or hybrid indexes for LLM-powered retrieval and evaluation.
 🚀 Run the Tutorial in Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/mst-rag-tutorial/blob/main/tutorials/rag_tutorial.ipynb

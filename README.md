@@ -71,6 +71,7 @@ Main dependencies include:
     ```bash
     # Using venv
     python -m venv venv
+    ```
     ```bash
     # Activate the environment
     # On Windows:
@@ -98,7 +99,7 @@ Main dependencies include:
 
     ```bash
     sudo apt-get update
-    sudo apt-get install openjdk-11-jdk
+    sudo apt-get install openjdk-21-jdk
     ```
 
     On macOS:
@@ -109,9 +110,8 @@ Main dependencies include:
 
     On Windows:
 
-    Download and install OpenJDK 11 from AdoptOpenJDK
-
-    Add Java to your PATH environment variable
+    - Download and install OpenJDK 21 from AdoptOpenJDK
+    - Add Java to your PATH environment variable
 
 5.  **Verify Installation**
 
@@ -176,13 +176,11 @@ academic-ir-pipeline/
 
 This repository includes two key supporting guides to help you work with the pipeline:
 
-- 📦 **[Data Directory Guide](docs/data.md)**:  
+- 📦 **[Data](docs/data.md)**:  
   Explains how the `data/` directory is organized, including scraped inputs, processed corpus files, and prebuilt indexes.  
-  → Learn about file formats, naming conventions, and how to manage large files.
 
 - 🛠️ **[Usage Guide](docs/usage.md)**:  
-  A step-by-step tutorial covering scraping, corpus creation, indexing, topic integration, evaluation, and troubleshooting.  
-  → Follow this guide if you're running the pipeline end-to-end or exploring individual components.
+  How to use the code in this repository for scraping, corpus creation, indexing, topic integration, evaluation, and troubleshooting. Follow this guide if you're running the pipeline end-to-end or exploring individual components.
 
 ---
 ## 🧪 Running Tests

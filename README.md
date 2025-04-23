@@ -2,10 +2,16 @@
 
 RAGKit is a comprehensive toolkit for building and evaluating information retrieval systems with Retrieval-Augmented Generation (RAG) capabilities. It enables you to scrape domain-specific content, create TREC-style reusable test collections, and build sparse, dense, or hybrid indexes for LLM-powered retrieval and evaluation.
 
+## Missouri S&T RAG Tutorial Materials
+
 🚀 **Run the Tutorial in Colab**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/mst-rag-tutorial/blob/main/tutorials/rag_tutorial.ipynb
-)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubham526/mst-rag-tutorial/blob/main/tutorials/rag_tutorial.ipynb)
+
+
+ 📑 **See the slides**
+  
+  [![Download Slides](https://img.shields.io/badge/Download-Slides-blue?style=for-the-badge&logo=adobeacrobatreader)](https://github.com/shubham526/mst-rag-tutorial/blob/main/tutorials/mst_rag_tutorial.pdf)
 
 ## 📚 Table of Contents
 

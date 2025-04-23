@@ -23,7 +23,7 @@ data/
 
 For detailed information, see the following documentation files:
 
-- [File Formats](file_formats.md) - Explanation of all data file formats
-- [Prebuilt Indexes](prebuilt_indexes.md) - Information about index creation and downloading
-- [Corpus Building](corpus_building.md) - Details on the corpus building process
-- [Topics and Evaluation](topics_and_evaluation.md) - Topic generation and evaluation methodology
+- [File Formats](https://github.com/shubham526/mst-rag-tutorial/blob/main/docs/file_formats.md) - Explanation of all data file formats
+- [Prebuilt Indexes](https://github.com/shubham526/mst-rag-tutorial/blob/main/docs/prebuilt_indexes.md) - Information about index creation and downloading
+- [Corpus Building](https://github.com/shubham526/mst-rag-tutorial/blob/main/docs/corpus_building.md) - Details on the corpus building process
+- [Topics and Evaluation](https://github.com/shubham526/mst-rag-tutorial/blob/main/docs/topics_and_evaluation.md) - Topic generation and evaluation methodology

@@ -1,10 +1,6 @@
-Here’s a clean, nicely formatted version of your **Usage Guide** text, ideal for copy-pasting into a **Google Doc**. I've removed extra indentation, clarified section spacing, and preserved code blocks as monospace text (you can manually format them in the doc using Google Docs' "Courier New" or "Preformatted" style).
-
----
-
 # Usage Guide
 
-This guide provides detailed instructions for using the **Academic IR Pipeline**.
+This guide provides detailed instructions for using the **RAGKit**.
 
 ---
 
